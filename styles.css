@@ -4,11 +4,12 @@
     text-align: center;
 }
 
-.container {
+.container{
     padding-top: 200px;
     animation: rotate 2s ease-in-out alternate-reverse;
-    size: 100px;
 }
+
+
 /* 
 @keyframes ease-in {
     0% { transform: ease-in;}
@@ -18,13 +19,21 @@
     100% {transform: rotate(360deg);border-width: 5px;}
 } */
 
-.herosection img{
-    height:300px;
-    width:300px;
+.container img{
+    height:400px;
+    width:400px;
     border-radius: 50%;
     display: inline-block;
     border: 6px solid white;
+    margin-left: 300px;
+
     
+}
+
+.herosection{
+    margin-left: 400px;
+    margin
+
 }
 
 * body{
@@ -32,9 +41,7 @@
     margin: 0;
     padding: 0;
     background-image: url("https://www.almanac.com/sites/default/files/image_nodes/winter_sunrise-2.jpg");
-    background-size: cover; 
-
-    
+    background-size: cover;    
 }
 
 li, a, button {
