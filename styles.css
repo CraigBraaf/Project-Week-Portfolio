@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.herosection {
+    text-align: center;
+}
+
+.container {
+    padding-top: 200px;
+    animation: rotate 2s ease-in-out alternate-reverse;
+    size: 100px;
+}
+/* 
+@keyframes ease-in {
+    0% { transform: ease-in;}
+    25% {transform: ease-in}
+    50% {border-width: 20px;}
+    75% {border-width: 40px;}
+    100% {transform: rotate(360deg);border-width: 5px;}
+} */
+
+.herosection img{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 6px solid white;
+    
+}
+
+* body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.almanac.com/sites/default/files/image_nodes/winter_sunrise-2.jpg");
+    background-size: cover; 
+
+    
+}
+
+li, a, button {
+    font-family: "Fjalla", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    text-align: center;
+    padding-top: 180px;
+    font-size: 12px;
+    color:white;
+    font-size: large;
+}
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,1689,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,1689,0.8);
+}
+
