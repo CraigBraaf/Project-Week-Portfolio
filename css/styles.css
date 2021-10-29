@@ -159,7 +159,7 @@ button:hover {
   .box3 {
     position:absolute;
     margin-top: 120px;
-    left: 1370px;
+    left: 1480px;
     transform: translate(-50%,-50%);
     width: 500px;
     padding: 20px;
@@ -206,7 +206,7 @@ button:hover {
   .box4 {
     position:absolute;
     margin-top: 500px;
-    margin-left: 1370px;
+    margin-left: 1480px;
     transform: translate(-50%,-50%);
     width: 500px;
     padding: 20px;
@@ -451,7 +451,7 @@ body {
   overflow: hidden;
   max-width: 30%;
   width: 400px;
-  margin-left: 100px;
+  margin-left: 160px;
   margin-top: 70px;
   justify-content: space-between;
   display: inline-block;
@@ -550,7 +550,7 @@ footer {
 
 .grid {
     margin-top: 80px;
-    margin-left: 140px;
+    margin-left: 160px;
     margin-right: 50px;
     display: inline-block;
     width: 20%;
@@ -643,7 +643,7 @@ input[type=text], select, textarea {
     font-weight: 200px;
     margin-top: -40%;
     color:#fff;
-    font-family: fantasy;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .smedia {
@@ -692,3 +692,53 @@ input[type=text], select, textarea {
 .smedia .button:hover {
     width: 200px;
 }
+
+#da-btn:hover {
+    transform: translateY(-5px);
+    transition: ease-out 0.3s;
+    background-color: #ac72b3;
+}
+
+#da-womb:hover {
+        transform: translateY(-5px);
+        transition: ease-out 0.3s;
+        background-color: #ac72b3;
+      }
+
+      #da-btnn:hover {
+        transform: translateY(-5px);
+        transition: ease-out 0.3s;
+        background-color: #ff2525;
+    }
+
+    .bar{
+        width: 50%;
+        background-color: #ddd;
+      }
+      
+      .skills {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+      }
+      
+      .html {width: 90%; background-color: #04AA6D;}
+      .css {width: 80%; background-color: #2196F3;}
+      .js {width: 0%; background-color: #f44336;}
+      .php {width: 75%; background-color: #808080;}
+
+      .boxx {
+          background-color: white;
+          padding: 50px;
+          margin-top: 200px;
+          margin-left: 130px;
+          width: 60%;
+          
+      }
+      
+      .infobox {
+          margin-top: 60px;
+      }
+    
+      
