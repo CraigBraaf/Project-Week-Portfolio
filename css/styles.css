@@ -12,6 +12,8 @@
     background-image: url("https://www.almanac.com/sites/default/files/image_nodes/winter_sunrise-2.jpg");
     background-size: cover;  
     background-repeat: no-repeat;  
+    height: fit-content;
+    width: fit-content;
 }
 
 li, a, button {
@@ -528,7 +530,7 @@ footer {
 
 .abouthead h1 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 90px;
     color:#fff;
     text-decoration: underline;
 }
@@ -596,7 +598,7 @@ footer {
     color: #fff;
     text-decoration: underline;
     margin: 10px;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 input[type=text], select, textarea {
@@ -740,5 +742,34 @@ input[type=text], select, textarea {
       .infobox {
           margin-top: 60px;
       }
+
+      .contactheading {
+          margin-top: 150px;
+          
+      }
+     
+      @media screen and (max-width: 480px){
+       .main--div {
+           margin-left: -100px;
+           justify-content: center;
+           height: fit-content;
+           width: fit-content;
+       }
+
+
+       .title {
+           padding-top: 10px;
+
+       }
+
+       .boxx {
+           justify-content:center;
+           height: fit-content;
+           width: fit-content;
+       }
+       
+       
+           
     
+      }
       
