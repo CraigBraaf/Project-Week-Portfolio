@@ -44,7 +44,6 @@ h2 {
 
 footer {
     text-align: center;
-    padding-top: 180px;
     font-size: 12px;
     color:white;
     font-size: large;
@@ -66,10 +65,10 @@ button:hover {
 
 .box {
   position:absolute;
-  top: 32%;
-  left: 25%;
+  margin-top: 132px;
+  left: 20%;
   transform: translate(-50%,-50%);
-  width: 600px;
+  width: 500px;
   padding: 20px;
   box-sizing: border-box;
   background: #fff;
@@ -113,10 +112,10 @@ button:hover {
 
 .box2 {
     position:absolute;
-    top: 70%;
-    left: 25%;
+    margin-top: 500px;
+    left: 20%;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 500px;
     padding: 20px;
     box-sizing: border-box;
     background: #fff;
@@ -159,10 +158,10 @@ button:hover {
 
   .box3 {
     position:absolute;
-    top: 35%;
-    left: 80%;
+    margin-top: 120px;
+    left: 1370px;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 500px;
     padding: 20px;
     box-sizing: border-box;
     background: #fff;
@@ -206,10 +205,10 @@ button:hover {
 
   .box4 {
     position:absolute;
-    top: 70%;
-    left: 80%;
+    margin-top: 500px;
+    margin-left: 1370px;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 500px;
     padding: 20px;
     box-sizing: border-box;
     background: #fff;
@@ -253,10 +252,11 @@ button:hover {
 
   .box5 {
     position:absolute;
-    top: 53%;
+    margin-top: 320px;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 500px;
+    height: 600px;
     padding: 20px;
     box-sizing: border-box;
     background: #fff;
@@ -373,3 +373,322 @@ button:hover {
 }
 }
 
+.wrapper {
+    background: linear-gradient(90deg, #880fc4 0%, #1d39f2 100%);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: ;
+    color: #fff;
+
+}
+
+.wrapper h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin: 25px 0; 
+    text-align: center;
+}
+
+.wrapper h5 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    position: relative;
+    background: rgba(255, 250, 250, 0.2)
+    box-shadow: 10px 20px 25px rgba(0,0,0,0.2)
+}
+
+.card img {
+    height: 90px;
+    width: 90px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  overflow: hidden;
+  max-width: 30%;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 70px;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.testimonial-body {
+  padding: 50px 80px 100px;
+}
+
+.testimonial-body p {
+  color: #555;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.testimonial-body .fa-quote-right {
+  color: #eee;
+  font-size: 40px;
+  float: right;
+}
+
+.testimonial-footer {
+  background-color: #2377f7;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.testimonial-footer img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  height: 120px;
+  width: 120px;
+  margin-top: -100px;
+  
+}
+
+.testimonial-footer h3 {
+  margin: 10px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.testimonial-footer h4 {
+  color: #302d2d;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+footer {
+    /* background-color: #222; */
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    margin-top: 90px;
+}
+
+.testhead h1 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.testhead h2 {
+    text-align: center;
+    color: white;
+}
+
+.abouthead h1 {
+    text-align: center;
+    margin-top: 30px;
+    color:#fff;
+    text-decoration: underline;
+}
+
+.abouthead h2 {
+    text-align: center;
+    color: #fff;
+
+}
+
+.title {
+    font-size: 35px;
+    display: inline-block;
+}
+
+.main--div {
+    margin-left: 10%;
+}
+
+.grid {
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-right: 50px;
+    display: inline-block;
+    width: 20%;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+    transition: 0.2s;
+}
+
+.grid-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0,0.5);
+}
+
+.procard-img {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    object-fit:cover;
+}
+
+.procard-content {
+    padding: 1rem;
+
+}
+
+.card-header {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #503636;
+}
+
+.proheading {
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    margin: 10px;
+    margin-top: 4%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #2896d6;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 45%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #277bca;
+  }
+
+  .contactheading {
+    font-size: 40px;
+    /* text-align: center; */
+    color: white;
+    margin-top: 50px;
+    margin-left: 26%;
+}
+
+.form {
+     margin-left: 200px;
+     margin-right: 50%;
+}
+
+.GITtitle {
+    margin-left:60%;
+    font-size: 1000%;
+    font-weight: 200px;
+    margin-top: -40%;
+    color:#fff;
+    font-family: fantasy;
+}
+
+.smedia {
+    margin-left: 64%;
+    margin-top: -30;
+} 
+
+.smedia .button {
+      display:inline-block;
+      height: 60px;
+      width: 60px;
+      float: left;
+      margin: 0 5px;
+      background:#fff;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0px 10px 10px rgba (0);
+      transition: all 0.3s ease-out;
+      overflow: hidden;
+
+}
+
+.smedia .button .icon {
+      display:inline-block;
+      height: 60px;
+      width:60px;
+      border-radius: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      line-height: 60px;
+}
+
+
+.smedia .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.smedia .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.smedia .button:hover {
+    width: 200px;
+}
