@@ -310,8 +310,8 @@ button:hover {
 }
 
 .center--div {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background-image: url("https://images-ext-2.discordapp.net/external/Ji0kvCkjz2WeHw_04rddPFkI3ipXOEZ-NVMg_9Qf7mM/%3Fwidth%3D605%26height%3D605/https/media.discordapp.net/attachments/895009723445817425/897443114497757224/JPEG_20200711_004037_3078058689581127415.jpg?width=300&height=300");
     background-size: cover;
     border: 6px solid white;
@@ -322,7 +322,7 @@ button:hover {
 .main--div .center--div {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 100px;
 
 }
 
@@ -461,6 +461,7 @@ body {
 
 .testimonial-body {
   padding: 50px 80px 100px;
+  height: 420px;
 }
 
 .testimonial-body p {
@@ -516,6 +517,10 @@ footer {
     margin-top: 90px;
 }
 
+.testhead {
+    margin-top: 100px;
+}
+
 .testhead h1 {
     text-align: center;
     color: white;
@@ -526,17 +531,19 @@ footer {
 .testhead h2 {
     text-align: center;
     color: white;
+    margin-top: 40px;
 }
 
 .abouthead h1 {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 100px;
     color:#fff;
     text-decoration: underline;
 }
 
 .abouthead h2 {
     text-align: center;
+    margin-top: 40px;
     color: #fff;
 
 }
@@ -598,7 +605,7 @@ footer {
     color: #fff;
     text-decoration: underline;
     margin: 10px;
-    margin-top: 2%;
+    margin-top: 130px;
 }
 
 input[type=text], select, textarea {
