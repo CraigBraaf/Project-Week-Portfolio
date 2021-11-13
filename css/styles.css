@@ -9,7 +9,7 @@
 * body{
     margin: 0;
     padding: 0;
-    background-image: url("https://www.almanac.com/sites/default/files/image_nodes/winter_sunrise-2.jpg");
+    background-image: url("https://files.123freevectors.com/wp-content/original/131776-red-and-yellow-polygon-pattern-background.jpg");
     background-size: cover;  
     background-repeat: no-repeat;  
     height: fit-content;
@@ -534,6 +534,11 @@ footer {
     margin-top: 40px;
 }
 
+.abouthead {
+    margin-left: 500px;
+}
+
+
 .abouthead h1 {
     text-align: center;
     margin-top: 100px;
@@ -603,9 +608,8 @@ footer {
 .proheading {
     text-align: center;
     color: #fff;
-    text-decoration: underline;
     margin: 10px;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 input[type=text], select, textarea {
@@ -739,7 +743,7 @@ input[type=text], select, textarea {
 
       .boxx {
           background-color: white;
-          padding: 50px;
+          padding: 80px;
           margin-top: 200px;
           margin-left: 130px;
           width: 60%;
@@ -764,6 +768,19 @@ input[type=text], select, textarea {
            width: fit-content;
        }
 
+       @media screen and (max-width: 915px){
+           .testhead {
+               padding: 0;
+               margin: 0; 
+               text-align: center;
+               
+        }
+        .testhead h2{
+            
+        }
+           
+       }
+
 
        .title {
            padding-top: 10px;
@@ -774,10 +791,21 @@ input[type=text], select, textarea {
            justify-content:center;
            height: fit-content;
            width: fit-content;
+
+
        }
-       
-       
-           
-    
-      }
+    }
+
+    .infobox {
+        margin-top: 0px;
+        }
+
+
+    .titleani {
+
+    }
+
+    a {
+        color: red;
+    }
       
