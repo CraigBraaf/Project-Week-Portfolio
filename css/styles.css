@@ -312,9 +312,9 @@ button:hover {
 .center--div {
     width: 450px;
     height: 450px;
-    background-image: url("https://images-ext-2.discordapp.net/external/Ji0kvCkjz2WeHw_04rddPFkI3ipXOEZ-NVMg_9Qf7mM/%3Fwidth%3D605%26height%3D605/https/media.discordapp.net/attachments/895009723445817425/897443114497757224/JPEG_20200711_004037_3078058689581127415.jpg?width=300&height=300");
+    /* background-image: url("https://images-ext-2.discordapp.net/external/Ji0kvCkjz2WeHw_04rddPFkI3ipXOEZ-NVMg_9Qf7mM/%3Fwidth%3D605%26height%3D605/https/media.discordapp.net/attachments/895009723445817425/897443114497757224/JPEG_20200711_004037_3078058689581127415.jpg?width=300&height=300");
     background-size: cover;
-    border: 6px solid white;
+    border: 6px solid white; */
     border-radius: 50%;
     margin-left: 300px;
 }
@@ -808,4 +808,6 @@ input[type=text], select, textarea {
     a {
         color: red;
     }
+
+ 
       
