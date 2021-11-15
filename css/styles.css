@@ -478,7 +478,7 @@ body {
 }
 
 .testimonial-footer {
-  background-color: #f0a038;
+  background-color: #1b1b18;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -497,12 +497,14 @@ body {
   margin: 10px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #e9792f;
 }
 
 .testimonial-footer h4 {
-  color: #302d2d;
+  color: #fffefd;
   margin: 0;
   letter-spacing: 1px;
+
 }
 
 footer {
