@@ -5,6 +5,15 @@
     border-collapse: collapse;
 
 }
+#landing {
+    height: 100vh;
+}
+.landing-heading {
+    position: absolute;
+    top: 15vh;
+    left: 26vw;
+    margin: auto;
+}
 
 * body{
     margin: 0;
@@ -12,6 +21,8 @@
     background-image: url("https://www.wallpaperflare.com/static/89/336/1009/orange-minimalism-pattern-red-wallpaper.jpg");
     background-size: cover;  
     background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
     width: fit-content;
 }
@@ -299,30 +310,15 @@ button:hover {
   }
 
 .main--div {
-    width: 100%;
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: content;
-    background-color: none;
-    margin-left: 300px;
+    text-align: center;
 
 }
 
-.center--div {
-    width: 450px;
-    height: 450px;
-    /* background-image: url("https://images-ext-2.discordapp.net/external/Ji0kvCkjz2WeHw_04rddPFkI3ipXOEZ-NVMg_9Qf7mM/%3Fwidth%3D605%26height%3D605/https/media.discordapp.net/attachments/895009723445817425/897443114497757224/JPEG_20200711_004037_3078058689581127415.jpg?width=300&height=300");
-    background-size: cover;
-    border: 6px solid white; */
-    border-radius: 50%;
-    margin-left: 300px;
-}
-
-.main--div .center--div {
+.main--div {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    text-align: center;
 
 }
 
@@ -507,18 +503,19 @@ body {
 
 }
 
-footer {
-    /* background-color: #222; */
-    color: #fff;
-    font-size: 14px;
+footer{
+    box-sizing: border-box;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-    margin-top: 90px;
+    width: 100%;
+    background-color: #000;
 }
 
+footer > p {
+    margin-top: 12px;
+    box-sizing: border-box;
+    padding: 0;
+}
 .testhead {
     margin-top: 100px;
 }
@@ -546,6 +543,7 @@ footer {
     margin-top: 100px;
     color:#fff;
     text-decoration: underline;
+    margin-left: 6rem;
 }
 
 .abouthead h2 {
@@ -558,10 +556,16 @@ footer {
 .title {
     font-size: 35px;
     display: inline-block;
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+
 }
 
 .main--div {
-    margin-left: 10%;
+     justify-content: center;
+     padding: 200px;
 }
 
 .grid {
@@ -645,6 +649,12 @@ input[type=text], select, textarea {
     color: white;
     margin-top: 50px;
     margin-left: 26%;
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .form {
@@ -762,28 +772,6 @@ input[type=text], select, textarea {
           
       }
      
-      @media screen and (max-width: 480px){
-       .main--div {
-           margin-left: -100px;
-           justify-content: center;
-           height: fit-content;
-           width: fit-content;
-       }
-
-       @media screen and (max-width: 915px){
-           .testhead {
-               padding: 0;
-               margin: 0; 
-               text-align: center;
-               
-        }
-        .testhead h2{
-            
-        }
-           
-       }
-
-
        .title {
            padding-top: 10px;
 
@@ -803,13 +791,44 @@ input[type=text], select, textarea {
         }
 
 
-    .titleani {
-
+    .title h1 {
+        font-size: 100px;
+        text-align: center;
     }
 
-    a {
-        color: red;
+    .title h2{
+        font-size: 45px;
+        text-align: center;
     }
 
- 
+    .title p{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .landing-heading {
+        font-family: Verdana, sans-serif;
+    }
       
+
+
+    @media screen and (max-width: 915px){
+        .title {
+            text-align: center;
+            font-size: -100rem;
+            margin-left: -18rem;
+            top: 10rem;
+            text-overflow: hidden;
+
+        }
+
+       .abouthead {
+           text-align: center;
+           margin-left: 1rem;
+           text-overflow: hidden;
+       } 
+
+
+    
+    }
+        
